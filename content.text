@@ -1,0 +1,43 @@
+for a hero section text 
+
+Heading text = Hi, I'm Harsh — A Frontend Developer.
+sub text  = I create websites that are clean, responsive, and easy to navigate, ensuring users have a smooth and enjoyable experience on any device.
+1st btn = See My project  2nd btn = About Me
+
+About Me section text
+
+Heading :: About Me , so who am i;
+sub heading : Hi, I'm Harsh — a frontend developer from Fatehgarh Sahib, Punjab, India. I'm 18 years old and have been working in frontend development for the past year. My journey began with learning from Jonas Schmedtmann, a fantastic Udemy instructor. A big shoutout to him for making web development concepts easy to understand and inspiring me to build great websites.
+
+btn : Resume
+
+skills section 
+
+html : I create clean and well-structured web pages using HTML that are easy to understand and maintain, 
+css  : I style websites to look modern and responsive, ensuring they adapt beautifully to any screen size.
+javascrpit : I use JavaScript to create interactive and dynamic web experiences.I write modern code that is easy to understand and maintain. 
+bootstrap :I use Bootstrap to design fast, responsive websites with a clean and professional look.
+
+projet showCase section
+h1 : My project
+h2 :    Netflix Clone
+p : A clean and responsive Netflix clone designed to showcase my skills in HTML and CSS. Features an engaging UI with a modern look and feel
+
+H3 : Real Estate Website
+p : A sleek and professional real estate website built with HTML and SCSS. Designed for seamless navigation and improved user experience.
+
+h2 : Food Recipe Web App
+p : A dynamic web application that allows users to explore delicious recipes and add recipes in application i. Features search functionality, ingredient details, and easy-to-follow instructions.
+
+
+
+
+
+
+contact us section
+
+heading : Get in touch
+address : ? , Email : harshasus00@gmial.com , phone : 9781386076
+Form : first Name, last Name ,  phone no    , Emial , send us a message
+
+btn : send us message

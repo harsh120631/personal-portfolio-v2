@@ -1,0 +1,30 @@
+// so this used for reusable component like a btn cards etc
+@use "../abstract/variable" as *;
+
+.reusable__btn{
+    text-align: center;
+    font-size: inherit;
+    font-family: inherit;
+    background: $color-secondary;
+    padding: .8rem 1.9rem;
+    color: white;
+    border: none;
+    border-radius: 1.1rem;
+    cursor: pointer;
+    transition: all .3s;
+    &:hover{
+        background: $color-secondary-dark ;
+       transform: translateY(-.5rem);
+    }
+}
+
+.btn__white{
+    font-family: inherit;
+    padding: .8rem 1.9rem;
+    border: none;
+    font-size: inherit;
+    border-radius: 0.8rem;
+    cursor: pointer;
+    font-weight: 500;
+
+}

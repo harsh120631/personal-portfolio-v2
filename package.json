@@ -1,0 +1,25 @@
+{
+  "name": "hmt-protfolio-website-project",
+  "version": "1.0.0",
+  "description": "personal protofolio",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "harshmaxtaffy",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3",
+    "sass": "^1.85.1",
+    "svgo": "^3.3.2"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7",
+    "tsparticles": "^2.11.1",
+    "tsparticles-engine": "^2.11.1"
+  }
+}

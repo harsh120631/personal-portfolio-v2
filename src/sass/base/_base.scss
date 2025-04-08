@@ -1,0 +1,20 @@
+// this file  include such as reset style for html and body element selector and so this also include a varialbe ffor scss
+
+@use "../abstract/variable" as *;
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+body {
+  font-weight: 300;
+  line-height: 1.6;
+  font-family: $font-display;
+};
+html{
+  font-size: 62.5%;
+}

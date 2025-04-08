@@ -1,0 +1,43 @@
+@use "../abstract/variable" as *;
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem 3.2rem;
+    align-items: center;
+    background-color: #ECF2F7;
+    position: relative;
+    z-index: 3;
+
+
+
+    &__list{
+        font-size: $Defaultfont-size;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        transition: all 2s;
+        
+    }
+    &__logo{
+        display: flex;
+        cursor: pointer;
+    }
+    &__item {
+        &:not(:last-child){
+            margin-right: 2.8rem;
+        }
+        
+    }
+    &__link, &__link:link,&__link:visited{
+        color:#080704;    
+        font-family: inherit;
+        text-decoration: none;
+        transition: all .4s;
+    }
+    &__link:hover,&__link:active{
+        color: rgb(9, 138, 244);
+    }
+
+   
+}

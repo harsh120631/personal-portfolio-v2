@@ -5,6 +5,9 @@ document.addEventListener("DOMContentLoaded", async () => {
   await loadFull(tsParticles);
 
   tsParticles.load("particles-js", {
+    fullScreen: {
+    enable: false, // ❌ Don't make it full screen
+  },
     particles: {
       number: { value: 50 },
       size: { value: 2, random: true },
@@ -27,6 +30,24 @@ document.addEventListener("DOMContentLoaded", async () => {
     retina_detect: true,
   });
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // document.addEventListener("DOMContentLoaded", () => {
 //   if (particlesJS) {

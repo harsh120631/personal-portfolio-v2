@@ -6,7 +6,7 @@
     height: 92vh;
     position: relative;
     z-index: 1;
-    
+    overflow: hidden;
 
     &__text{
         height: 100%;
@@ -50,11 +50,12 @@
 
 }
 #particles-js{
-    width: 100%;
-    height: 100vh; /* full screen */
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    z-index: -1; /* keeps it in the background */
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allows buttons to be clickable */
+    z-index: 0;
   }
   

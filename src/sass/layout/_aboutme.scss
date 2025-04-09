@@ -1,1 +1,54 @@
 @use "../abstract/variable" as *;
+
+.About-me{
+
+   &__container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8rem;
+    }
+
+    &__img img{
+        width: 60%;
+    }
+    &__img {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    &__text{
+        padding: 0 5rem;
+        width: 100%;
+    }
+    &__heading{
+        color: #3F699D;
+        font-family: inherit;
+        font-size: 4.5rem;
+        font-weight: 300;
+        margin-bottom: 2rem;
+    }
+    &__sub--heading{
+        font-family: inherit;
+        color: $color-text;
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+        line-height: 1.2;
+        
+    }
+     &__btn{
+        padding: 0.6rem 1.2rem;
+        background-color: #229799;
+        color: #fff;
+        border: none;
+        border-radius: 8px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+      
+     &__btn:hover{
+        background-color: #1b7e80;
+      }
+      
+}

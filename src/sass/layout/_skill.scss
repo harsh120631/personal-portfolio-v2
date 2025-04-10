@@ -1,0 +1,58 @@
+@use "../abstract/variable" as *;
+
+.skill{
+
+    &__showcase{
+        display: flex;
+        gap: 4rem;
+
+        &__html--logo{
+            color: red;
+            font-size: 5rem;
+            color: red;
+        }
+        &__css--logo{
+            color: steelblue;
+            font-size: 5rem;
+        }
+        &__js--logo{
+            color: #bdc61e;
+            font-size: 5rem;
+        }
+        &__heading{
+            font-size: 2.8rem;
+            margin-bottom: 2rem;
+        }
+        &__sub--heading{
+            font-size: $Defaultfont-size;
+            margin-bottom: 2rem;
+        }
+    }
+
+    &__heading{
+        transform: translateY(-5rem);
+    }
+    &__text{
+        
+        padding: 0 5rem;
+    }
+    &__link--box{
+        transform: translateY(3rem);
+        text-align: center;
+    }
+
+    &__link, &__link:link,&__link:visited{
+        font-family: inherit;
+        color: #ff6f61;
+        font-size: 1.8rem;
+        text-decoration: none;
+        border-bottom: 1px solid currentColor;
+        transition: all .5s;
+    }
+
+    &__link:hover,&__link:active{
+        border-bottom: none;
+        color: #ED4E13;
+    }
+}
+

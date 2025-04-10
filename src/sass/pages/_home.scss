@@ -2,6 +2,10 @@
 @use "../abstract/variable" as *;
 // section about me 
 .About-me{
-    padding: 9.6rem 5rem;
-   
+    padding: 9.6rem 0rem;
+    
+}
+.skill{
+    padding: 9.6rem 0rem;
+    background-color: $color-primary-light;
 }

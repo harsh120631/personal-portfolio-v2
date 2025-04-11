@@ -4,33 +4,65 @@
 
     &__showcase{
         display: flex;
-        gap: 4rem;
+        gap: 3rem;
+        justify-content: center;
+
+        &--html,&--css,&--js{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            padding: 2rem;
+            border-radius: 0.8rem;
+            box-shadow: 0 0.4rem 0.8rem rgba(0, 0, 0, 0.1);
+            width: 25rem; /* Increased width to accommodate longer text */
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        &--html:hover,&--css:hover,&--js:hover{
+            transform: scale(1.05);
+        }
+        &--html__progress{
+            color: red;
+        }
 
         &__html--logo{
             color: red;
-            font-size: 5rem;
-            color: red;
-            
+            font-size: 4.8rem;
+           transition: transform 0.3s;
+           
         }
         &__css--logo{
             color: steelblue;
-            font-size: 5rem;
+            font-size: 4.8rem;
+            transition: transform 0.3s;
         }
         &__js--logo{
             color: #bdc61e;
-            font-size: 5rem;
+            font-size: 4.8rem;
+            transition: transform 0.3s;
+            margin-bottom: 1rem;
         }
+        &__html--logo:hover,&__css--logo:hover,&__js--logo:hover{
+            transform: scale(1.1);
+        }
+
         &__heading{
-            font-size: 2.8rem;
-            margin-bottom: 2rem;
+            font-size: 2.4rem;
+            color: #2c3e50;
+            margin-bottom: 0.5rem;
         }
         &__sub--heading{
-            font-size: $Defaultfont-size;
-            margin-bottom: 2rem;
+            font-size: 1.4rem;
+            color: #7f8c8d;
+            line-height: 1.5; /* Improved readability for longer text */
+            margin-bottom: 1.6rem;
         }
     }
 
     &__heading{
+        font-size: 3.2rem;
+        font-weight: 500;
         transform: translateY(-5rem);
     }
     &__text{
@@ -56,4 +88,12 @@
         color: #ED4E13;
     }
 }
-
+.badge {
+    display: inline-block;
+    padding: 0.4rem 1.2rem; /* 4px 12px */
+    background: #27ae60;
+    color: #fff;
+    border-radius: 0.4rem; /* 4px */
+    font-size: 1.2rem; /* 12px */
+    font-weight: 600;
+}

@@ -4,11 +4,10 @@
   "description": "personal protofolio",
   "default": "index.html",
   "scripts": {
-    "dev": "npm-run-all --parallel sass serve",
-     "serve": "live-server",
+  
     "start": "parcel index.html",
-    "build": "parcel build index.html --dist-dir ./dist",
-    "sass": "sass src/sass/main.scss styles.css --watch"
+    "build": "parcel build index.html --dist-dir ./dist"
+  
   },
   "author": "harshmaxtaffy",
   "license": "ISC",

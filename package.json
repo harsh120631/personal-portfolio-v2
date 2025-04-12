@@ -4,10 +4,11 @@
   "description": "personal protofolio",
   "default": "index.html",
   "scripts": {
-  
+   
+
     "start": "parcel index.html",
     "build": "parcel build index.html --dist-dir ./dist"
-  
+    
   },
   "author": "harshmaxtaffy",
   "license": "ISC",

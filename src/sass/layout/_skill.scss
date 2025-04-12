@@ -46,6 +46,7 @@
         &__html--logo:hover,&__css--logo:hover,&__js--logo:hover{
             transform: scale(1.1);
         }
+        
 
         &__heading{
             font-size: 2.4rem;
@@ -96,22 +97,4 @@
     border-radius: 0.4rem; /* 4px */
     font-size: 1.2rem; /* 12px */
     font-weight: 600;
-}
-.skill__showcase--html__progress,
-.skill__showcase--css__progress,
-.skill__showcase--js__progress {
-    width: 100%;
-    background: #f0f0f0;
-    border-radius: 0.25rem; /* 2.5px */
-    overflow: hidden;
-    margin-bottom: 1rem; /* 10px */
-}
-.skill__showcase--html__progress-bar,
-.skill__showcase--css__progress-bar,
-.skill__showcase--js__progress-bar {
-    height: 0.5rem; /* 5px */
-    background: #27ae60; /* Green to match the badge color */
-    border-radius: 0.25rem; /* 2.5px */
-    width: 90%; /* 90% proficiency */
-    transition: width 0.3s ease;
 }

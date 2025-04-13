@@ -5,6 +5,7 @@
     &__showcase{
         display: flex;
         gap: 6rem;
+        transform: translateY(-2rem);
         justify-content: center;
 
         &--html,&--css,&--js{
@@ -22,9 +23,7 @@
         &--html:hover,&--css:hover,&--js:hover{
             transform: scale(1.05);
         }
-        &--html__progress{
-            color: red;
-        }
+       
 
         &__html--logo{
             color: red;
@@ -41,7 +40,7 @@
             color: #bdc61e;
             font-size: 4.8rem;
             transition: transform 0.3s;
-            margin-bottom: 1rem;
+          
         }
         &__html--logo:hover,&__css--logo:hover,&__js--logo:hover{
             transform: scale(1.1);
@@ -58,20 +57,21 @@
             color: #7f8c8d;
             line-height: 1.5; /* Improved readability for longer text */
             margin-bottom: 1.6rem;
+            font-family: inherit;
         }
     }
 
     &__heading{
         font-size: 3.2rem;
         font-weight: 500;
-        transform: translateY(-5rem);
+        transform: translateY(-4rem);
     }
     &__text{
         
         padding: 0 5rem;
     }
     &__link--box{
-        transform: translateY(3rem);
+        transform: translateY(4rem);
         text-align: center;
     }
 

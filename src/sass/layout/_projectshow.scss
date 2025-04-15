@@ -1,0 +1,69 @@
+@use "../abstract/variable" as *;
+.Project{
+
+    &__showcase{
+        display: grid;
+      
+        padding-top: 6rem;
+        border-top: 1px solid black;
+      
+        &--first,&--second,&--third{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+          
+           
+        }
+        &--first{
+            padding-bottom: 6rem;
+        }
+        &--second{
+            border-top: 1px solid #ccc;
+            padding-top: 6rem;
+            padding-bottom: 6rem;
+        }
+        &--third{
+            border-top: 1px solid #ccc;
+            padding-top: 6rem;
+        }
+        &--Realestate_video{
+            display: flex;
+            justify-content: end;
+            grid-column: 2/3;
+        }
+       
+        &--para{
+            font-size: 1.3rem;
+        }
+        // &--video{
+        //     width: 25rem;
+        // }
+        &--btn{
+            transform: translateY(2rem);
+        }
+      
+       
+        &--netflix_text,&--Realestate_text,&--Recipe_text{
+          align-self: center;
+        }
+        &--Realestate_text{
+            grid-column: 1/2;
+            grid-row: 1/2;
+        }
+
+        &--netflix_video img,&--Realestate_video img, &--Recipe_video img{
+            width: 65%;
+            border-radius: 0.8rem;
+        }
+
+    }
+
+    &__heading{
+        color: $color-primary;
+        margin-bottom: 1rem;
+    }
+    &__sub--heading{
+        color: #7f8c8d;
+        font-size: 1.4rem;
+        margin-bottom: 4rem;
+    }
+}

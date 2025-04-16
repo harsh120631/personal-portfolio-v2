@@ -4,6 +4,18 @@
     text-align: center;
 }
 
-.user-linkstyle{
-    color: blanchedalmond;
+
+
+.user-linkstyle:hover, .user-linkstyle:active {
+    color: #ed4e13;
+    border-bottom: none;
+}
+.user-linkstyle, .user-linkstyle:link, .user-linkstyle:visited {
+    color: #ff6f61;
+
+    font-family: inherit;
+    font-size: 1.8rem;
+    text-decoration: none;
+    transition: all .5s;
+    cursor: pointer;
 }

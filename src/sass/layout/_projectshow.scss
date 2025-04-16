@@ -2,10 +2,8 @@
 .Project{
 
     &__showcase{
-        display: grid;
-      
         padding-top: 6rem;
-        border-top: 1px solid black;
+        border-top: 1px solid #ccc;
       
         &--first,&--second,&--third{
             display: grid;
@@ -24,21 +22,24 @@
         &--third{
             border-top: 1px solid #ccc;
             padding-top: 6rem;
+            
         }
         &--Realestate_video{
             display: flex;
-            justify-content: end;
+            // justify-content: end;
             grid-column: 2/3;
         }
        
         &--para{
             font-size: 1.3rem;
+            color: #080704;
         }
         // &--video{
         //     width: 25rem;
         // }
         &--btn{
             transform: translateY(2rem);
+            display: inline-block;
         }
       
        

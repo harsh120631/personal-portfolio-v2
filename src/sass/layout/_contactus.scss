@@ -1,0 +1,67 @@
+.Contact-us{
+
+    &__user{
+
+        &--heading{
+            margin-bottom: 1rem;
+        }
+        &--sub-heading{
+            font-size: 1.2rem;
+            margin-bottom: 2rem;     
+            font-family: inherit;
+        }
+        &--form input{
+            padding: 1.2rem 1.2rem;
+            border-radius: 0.7rem;
+            border: 1px solid #c1aeae;
+            color: black;
+            outline: none;
+            &::placeholder{
+                color: #777;
+            }
+            &:focus{
+                border-color: steelblue;
+            }
+        }
+        &--form{
+            & textarea {
+                color: black;
+
+                &::placeholder{
+                    color: #777;
+                }
+                &:focus{
+                    border: 1px solid steelblue;
+                    outline: none;
+                   
+                }
+            }
+        }
+    }
+
+    &__user--form{
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column;
+    }
+
+    &__our{
+        &--info{
+            background-color: steelblue;
+        }
+
+        &--heading{
+            color: white;
+        }
+        &--details{
+            align-items: center;
+            display: flex;
+            gap: 2rem;
+            color: white;
+            font-size: 1.3rem;
+        }
+        &--Twitter__logo{
+            fill: white;
+        }
+    }
+}

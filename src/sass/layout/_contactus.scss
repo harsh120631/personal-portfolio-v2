@@ -1,8 +1,12 @@
+@use "../abstract/variable" as *;
 .Contact-us{
 
     &__user{
-
+        &--info{
+            flex: 1;
+        }
         &--heading{
+            color: $color-primary;
             margin-bottom: 1rem;
         }
         &--sub-heading{
@@ -11,7 +15,7 @@
             font-family: inherit;
         }
         &--form input{
-            padding: 1.2rem 1.2rem;
+            padding: 1.5rem;
             border-radius: 0.7rem;
             border: 1px solid #c1aeae;
             color: black;
@@ -26,9 +30,11 @@
         &--form{
             & textarea {
                 color: black;
+                padding: 1.5rem;
 
                 &::placeholder{
                     color: #777;
+                    font-family: $font-display;
                 }
                 &:focus{
                     border: 1px solid steelblue;
@@ -41,13 +47,19 @@
 
     &__user--form{
         display: flex;
-        gap: 1.5rem;
+        gap: 2.5rem;
         flex-direction: column;
     }
 
     &__our{
         &--info{
+            flex: 1;
             background-color: steelblue;
+            border-radius: 1rem;
+        }
+        &--email__logo img,&--location__logo img, &--Twitter__logo svg,&--number__logo img{
+            height: 2.5rem;
+            width: 2.5rem;
         }
 
         &--heading{
@@ -60,8 +72,15 @@
             color: white;
             font-size: 1.3rem;
         }
+        &--details:not(:last-child){
+            margin-bottom: 2rem;
+        }
         &--Twitter__logo{
             fill: white;
         }
     }
+}
+.flex{
+    display: flex;
+    align-items: center;
 }

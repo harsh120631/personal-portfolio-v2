@@ -3,7 +3,8 @@
 
     &__user{
         &--info{
-            flex: 1;
+            padding: 2rem 0rem 2rem 2rem;
+            width: 50%;
         }
         &--heading{
             color: $color-primary;
@@ -14,12 +15,24 @@
             margin-bottom: 2rem;     
             font-family: inherit;
         }
+        &--btn button{
+            background-color: #4682b4;
+            border: none;
+            font-family: inherit;
+            color: white;
+            border-radius: 2rem;
+            padding: 1.2rem 5.8rem;
+            cursor: pointer;
+            transform: translateY(1.8rem);
+        
+        }
         &--form input{
             padding: 1.5rem;
             border-radius: 0.7rem;
             border: 1px solid #c1aeae;
             color: black;
             outline: none;
+            width: 80%;
             &::placeholder{
                 color: #777;
             }
@@ -31,6 +44,7 @@
             & textarea {
                 color: black;
                 padding: 1.5rem;
+                width: 80%;
 
                 &::placeholder{
                     color: #777;
@@ -53,9 +67,12 @@
 
     &__our{
         &--info{
-            flex: 1;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+
+            width: 30%;
             background-color: steelblue;
             border-radius: 1rem;
+            padding: 2rem;
         }
         &--email__logo img,&--location__logo img, &--Twitter__logo svg,&--number__logo img{
             height: 2.5rem;
@@ -64,6 +81,8 @@
 
         &--heading{
             color: white;
+            margin-bottom: 5rem;
+            transform: translateY(0.5rem);
         }
         &--details{
             align-items: center;
@@ -73,7 +92,7 @@
             font-size: 1.3rem;
         }
         &--details:not(:last-child){
-            margin-bottom: 2rem;
+            margin-bottom: 3rem;
         }
         &--Twitter__logo{
             fill: white;

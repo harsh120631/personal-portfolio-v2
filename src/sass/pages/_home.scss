@@ -17,10 +17,14 @@
 }
 
 .Contact-us{
+    background: linear-gradient(to right, #f0f8ff, #ffffff);
+    
+}
+.Contact-us__box{
     max-width: 100rem;
     margin: 0 auto;
     padding: 9.6rem 0 ;
     display: flex;
     justify-content: center;
-    gap: 8rem;
+
 }

@@ -1,0 +1,23 @@
+.footer{
+
+    &__text{
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 3rem ;
+    }
+
+    &__copywright{
+        padding-top: 3rem;
+        border-top: 1px solid #ccc;
+        display: flex;
+        justify-content: center;
+        gap: 3.5rem;
+    }
+
+    &__social--logo ul{
+        display: flex;
+    
+        gap: 1rem;
+        list-style: none;
+    }
+}
